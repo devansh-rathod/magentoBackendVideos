@@ -67,6 +67,7 @@ atlassian*
 
 /var/*
 !/var/.htaccess
+# vendor
 /vendor/*
 !/vendor/.htaccess
 /generated/*
@@ -81,7 +82,14 @@ pub/media/mageplaza/*
 setupInstall.sh
 auth.json
 
-
+var
+generated
+vendor
+.editorconfig
+.htaccess
+.htaccess.sample
+.php-cs-fixer.dist.php
+.user.ini
 dev.cicero-dev.com-key.pem
 dev.cicero-dev.com.pem
 mkcert-v1.4.4-linux-amd64
