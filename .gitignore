@@ -14,10 +14,6 @@ atlassian*
 /pub/sitemap.xml
 /.idea
 /.gitattributes
-/app/config_sandbox
-/app/etc/config.php
-/app/etc/env.php
-/app/code/Magento/TestModule*
 /lib/internal/flex/uploader/.actionScriptProperties
 /lib/internal/flex/uploader/.flexProperties
 /lib/internal/flex/uploader/.project
@@ -75,7 +71,6 @@ atlassian*
 .DS_Store
 
 .env
-app/code/Mageplaza/*
 pub/media/blog/*
 pub/media/magefan_blog/*
 pub/media/mageplaza/*
