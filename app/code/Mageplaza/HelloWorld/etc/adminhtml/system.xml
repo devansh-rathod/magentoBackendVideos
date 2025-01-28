@@ -8,6 +8,7 @@
             <class>separator-top</class>
             <label>Hello World</label>
             <tab>mageplaza</tab>
+            <resource>Mageplaza_HelloWorld::helloworld_configuration</resource>
             <resource>Mageplaza_HelloWorld::helloworld_config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>General Configuration</label>
