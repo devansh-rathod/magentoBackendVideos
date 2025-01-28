@@ -1,5 +1,4 @@
 <?php
-
 namespace Mageplaza\HelloWorld\Controller\Index;
 
 use Magento\Framework\App\Action\HttpGetActionInterface;
