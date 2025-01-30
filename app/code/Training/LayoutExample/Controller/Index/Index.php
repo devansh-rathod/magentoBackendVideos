@@ -13,8 +13,6 @@ class Index implements ActionInterface
     }
     public function execute()
     {
-        $page =  $this->pageFactory->create();
-        $page->getConfig()->getTitle()->set("This is Devansh's page");
-        return $page;
+        return $this->pageFactory->create();
     }
 }
