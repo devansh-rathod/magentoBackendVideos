@@ -379,7 +379,8 @@ return [
         'PayPal_BraintreeGiftCardAccount' => 1,
         'PayPal_BraintreeGiftWrapping' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'Training_DependencyExample' => 1,
         'Training_Example' => 1,
-        'Training_ViewModelExample' => 1
+        'Training_ViewModelExample' => 0
     ]
 ];
