@@ -382,6 +382,7 @@ return [
         'Training_DependencyExample' => 0,
         'Training_Example' => 1,
         'Training_InjectablesAndNonInjectables' => 1,
+        'Training_PoolPattern' => 1,
         'Training_ViewModelExample' => 0
     ]
 ];
