@@ -5,10 +5,10 @@
       <block name="featured_block"
            class="Magento\Framework\View\Element\Template"
            template="Training_ProxyExample::featured.phtml">
-        <arguments>
-          <argument name="view_model" xsi:type="object">Training\ProxyExample\ViewModel\Example</argument>
-        </arguments>
+          <arguments>
+            <argument name="view_model" xsi:type="object">Training\ProxyExample\ViewModel\Example</argument>
+          </arguments>
       </block>
-    </referenceContainer>
+    </referenceContainer>  
   </body>
 </page>
