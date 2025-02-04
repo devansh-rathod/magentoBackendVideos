@@ -1,7 +1,6 @@
 <?php
-declare(strict_types= 1);
 \Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Training_PoolPattern',
-    __DIR__
+	\Magento\Framework\Component\ComponentRegistrar::MODULE,
+	'Training_PoolPattern',
+	__DIR__
 );
