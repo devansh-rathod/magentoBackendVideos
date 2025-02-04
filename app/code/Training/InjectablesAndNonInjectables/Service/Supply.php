@@ -10,8 +10,7 @@ class Supply
     protected Supplier $supplier;
     public function __construct(Supplier $supplier)
     {
-
-
+        $this->supplier = $supplier;
     }
     public function getSupplier(): Supplier
     {
