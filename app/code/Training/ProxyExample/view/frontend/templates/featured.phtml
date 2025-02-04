@@ -1,0 +1,11 @@
+<? /** @var Magento\Framework\View\Element\Template $block */ ?>
+
+<h2>featured products</h2>
+<ul>
+    <?php
+        foreach($block->getViewModel()->getFeaturedProducts() as $sku ): ?>
+    <li><?= $sku ?></li>
+     <?php
+     endforeach;
+     ?>
+</ul>

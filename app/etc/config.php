@@ -383,6 +383,7 @@ return [
         'Training_Example' => 1,
         'Training_InjectablesAndNonInjectables' => 1,
         'Training_PoolPattern' => 1,
+        'Training_ProxyExample' => 1,
         'Training_ViewModelExample' => 0
     ]
 ];
