@@ -87,4 +87,6 @@ vendor
 .user.ini
 dev.cicero-dev.com-key.pem
 dev.cicero-dev.com.pem
-mkcert-v1.4.4-linux-amd64
+mkcert-v1.4.4-linux-amd64\
+
+app/code/Training/PoolPattern/etc/module.xml
