@@ -5,7 +5,8 @@ namespace Training\PluginExample\Controller\Index;
 use Magento\Framework\App\ActionInterface;
 use Magento\Framework\View\Result\PageFactory;
 
-class Index implements ActionInterface{
+class Index implements ActionInterface
+{
     protected PageFactory $pageFactory;
     
     public function __construct(PageFactory $pageFactory){
@@ -13,7 +14,7 @@ class Index implements ActionInterface{
     }
     public function execute(){
         $page=$this->pageFactory->create();
-        $page->getConfig()->getTitle()->set("Virendra,Plugins"); 
+        $page->getConfig()->getTitle()->set("Devansh,Plugins"); 
         return $page;
     }
 }
