@@ -11,7 +11,6 @@ class Logger extends Log {
     ) {
         parent::__construct($name, [$handler]);
     }
-
     public function info($message, array $context = []): void {
         $this->log(Logger::INFO, $message, $context);
     }

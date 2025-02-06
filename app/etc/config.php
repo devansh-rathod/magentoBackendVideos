@@ -386,7 +386,7 @@ return [
         'Training_ObserverExample' => 1,
         'Training_PluginExample' => 1,
         'Training_PoolPattern' => 1,
-        'Training_ProxyExample' => 1,
+        'Training_ProxyExample' => 0,
         'Training_ViewModelExample' => 0,
         'Training_VirtualTypeExample' => 1
     ]

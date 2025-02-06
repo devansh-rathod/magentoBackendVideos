@@ -16,6 +16,6 @@ class Example implements ObserverInterface
 
     public function execute(Observer $observer)
     {
-        $this->logger->info('Devansh ,event triggered,product added to cart');
+        $this->logger->info('Devansh,event triggered,product added to cart');
     }
 }
